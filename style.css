@@ -1,0 +1,88 @@
+#back {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 1%;
+    right: 1%; /* Adjust this value based on your preference */
+    z-index: 9999; /* Set a high z-index value to ensure the button appears above other elements */
+}
+@font-face {
+    font-family: Simp;
+    src: url(simpson.otf)
+}
+@font-face {
+    font-family: comic;
+    src: url(comic.otf)
+}
+    button {
+        color: #DDCFFF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    body {
+        background-color: #DDCFFF;
+        
+    }
+    h1 {
+    color:blue;
+
+    
+    font-family: Simp;
+}
+    h2 {
+        color: #cdbaf9;
+        font-family: 'Open Sans', sans-serif;
+       text-align: center;
+    }
+    h3 {
+        color: #040de1;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    }
+    #tv {
+
+width: 200px;
+height: 200px;
+background: #040de1;
+border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+color: white;
+box-shadow: 20px  rgba(0,0,0,.15);
+transition: all .4s ease;
+margin: auto;
+display: inline-block; /* Display entries inline */
+vertical-align: top; /* Align entries to the top of the container */
+box-sizing: border-box;
+
+
+}
+#tv:hover {
+border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+box-shadow: 10px 10px rgba(0,0,0,.25);
+
+}
+#radio {
+box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px;
+width: 50%;
+height: 50%;
+margin: auto;
+transition: all .4s ease;
+}
+#radio:hover {
+box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+transition: all .4s ease;
+}
+@media (max-width: 768px) {
+    .tv {
+        width: 100%; /* On smaller screens, make entries occupy full width */
+    }
+}
+#container {
+    justify-content: center;
+}
